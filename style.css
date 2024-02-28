@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #30383e;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+.main {
+    background-color: grey;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    min-width: 600px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(139, 84, 84, 0.5);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color: azure;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+
+
+}
+
+label {
+    user-select: none;
+}
+
+#btn {
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 10;
+    padding: 20px;
+    background-color: #434b53;
+    color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: #04AA6D!important;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.right input[type="checkbox"] {
+    transform: scale(3);
+    margin: 10px;
+    padding: 10px;
+}
+
+.right input[type="number"] {
+    padding: 10px;
+    background-color: white;
+}
+
+.left {
+    height: 20px;
+}
